@@ -10,6 +10,14 @@ body {
   margin: 10px;
   display: inline;
 }
+ul {
+  list-style: none;
+}
+
+ul#product-list {
+  list-style: none;
+  text-align: left;
+}
 
 .navlink a {
   color: #ffffff;

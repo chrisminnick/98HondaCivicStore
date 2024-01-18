@@ -30,20 +30,13 @@ function accessoriesPage() {
   document.getElementById('page-title').innerHTML = 'Accessories';
 
   const accessoryList = accessories.map((accessory) => {
-    return '<li>' + accessory + '</li>';
+    return '<li>' + accessory.accessoryName + '</li>';
   });
 
-  accessoryList.sort();
-  const tiresComeOff = accessoryList.filter((accessory) => {
-    return accessory !== '<li>Tires</li>';
-  });
-  console.log(tiresComeOff);
   const accessoryHTMLList = accessoryList.join('');
 
   document.getElementById('app').innerHTML =
-    '<ul>' + accessoryHTMLList + '</ul>';
-
-  // generate list of available accessories.
+    '<ul id="product-list">' + accessoryHTMLList + '</ul>';
 }
 
 function cartPage() {
