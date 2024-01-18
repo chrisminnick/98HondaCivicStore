@@ -9,6 +9,7 @@ This app was created as a demo app for a class about JavaScript.
 ## Installation
 
 Run the following in the /server directory:
+
 `npm install`
 
 ## Starting the server
@@ -27,3 +28,5 @@ Run the following in the /server directory:
 3. Start the client server.
 
 `serve`
+
+4. Open a browser and go to the url the client server is running on.
