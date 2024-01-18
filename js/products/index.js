@@ -1,7 +1,16 @@
-function productPage() {
+import { fetchProducts } from '../utils/api.js';
+
+async function productPage() {
+  const products = await fetchProducts();
+
   document.getElementById('page-title').innerHTML = 'Products';
 
+  const productList = products.map((product) => {
+    return '<li>' + product.productName + '</li>';
+  });
+  const productHTMLList = productList.join('');
+
   document.getElementById('app').innerHTML =
-    '<ul><li>A 1998 Honda Civic</li></ul>';
+    '<ul id="product-list">' + productHTMLList + '</ul>';
 }
 export default productPage;

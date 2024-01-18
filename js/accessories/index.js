@@ -1,4 +1,8 @@
-function accessoriesPage(accessories) {
+import { fetchAccessories } from '../utils/api.js';
+
+async function accessoriesPage() {
+  const accessories = await fetchAccessories();
+
   document.getElementById('page-title').innerHTML = 'Accessories';
 
   const accessoryList = accessories.map((accessory) => {

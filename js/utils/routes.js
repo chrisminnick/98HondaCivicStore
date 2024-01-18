@@ -1,4 +1,3 @@
-import { products, accessories } from '../../data/index.js';
 import homePage from '../home/index.js';
 import cartPage from '../cart/index.js';
 import productPage from '../products/index.js';
@@ -16,7 +15,7 @@ function routes() {
       productPage();
       break;
     case '/accessories':
-      accessoriesPage(accessories);
+      accessoriesPage();
       break;
     default:
       document.getElementById('page-title').innerHTML = 'Unknown Page';

@@ -1,0 +1,209 @@
+{
+  "accessories": [
+    {
+      "accessoryName": "McDonald's Quarter Pounder Wrapper",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Socket Wrench",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Hopes and Dreams",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Tires",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Bike Rack",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "n'Sync CD",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Valve Stem Caps",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Ash Tray",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Old Spare Tire",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Fuzzy Steering Wheel Cover",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": true,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Lift Kit",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Beaded Seat Cover",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Cup Holder",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Bluetooth Transmitter",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Fuzzy Dice",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": true,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Window Tints",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Cowboy Hat (large)",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Dashboard Troll Doll",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Dashboard Hula Girl",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    },
+    {
+      "accessoryName": "Cassette Tape Case",
+      "price": "",
+      "description": "",
+      "inStock": "",
+      "color": "",
+      "UPC": "",
+      "fuzzy": false,
+      "imageUrl": ""
+    }
+  ],
+  "products": [
+    {
+      "productName": "1998 Honda Civic"
+    }
+  ]
+}
