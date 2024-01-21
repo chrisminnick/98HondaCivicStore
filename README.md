@@ -22,11 +22,11 @@ Run the following in the /server directory:
 
 1. Install the server package globally
 
-`npm server`
+`npm install -g serve`
 
-2. Make sure you're in the main directory of the project.
-3. Start the client server.
+3. Make sure you're in the main directory of the project.
+4. Start the client.
 
 `serve`
 
-4. Open a browser and go to the url the client server is running on.
+5. Open a browser and go to the url the client is running on.
