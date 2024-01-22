@@ -2,7 +2,7 @@
   "accessories": [
     {
       "accessoryName": "McDonald's Quarter Pounder Wrapper",
-      "price": "",
+      "price": "0.50",
       "description": "",
       "inStock": "",
       "color": "",
@@ -12,7 +12,7 @@
     },
     {
       "accessoryName": "Socket Wrench",
-      "price": "",
+      "price": "5.00",
       "description": "",
       "inStock": "",
       "color": "",
@@ -22,7 +22,7 @@
     },
     {
       "accessoryName": "Hopes and Dreams",
-      "price": "",
+      "price": "0.00",
       "description": "",
       "inStock": "",
       "color": "",
