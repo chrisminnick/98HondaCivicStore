@@ -52,4 +52,5 @@ Run the following in the /server directory:
 - Link each product and accessory to a unique route where individual product information will be displayed (something like /accessories/[id] or /products/[id])
 - Build the individual product and accessories pages.
 - Make the individual product and accessories pages display a single product or accessory when they recieve an id in the url.
+- Figure out url rewriting so any request for a file at a subdirectory will redirect to /index.html so it can be properly handled by JavaScript.
 - Any other feature you want. The smaller the feature the better.
