@@ -6,9 +6,12 @@ import galleryPage from '../gallery/index.js';
 
 function routes() {
   switch (window.location.hash) {
-    // case '' || '#/':
-    //    homePage();
-    //   break;
+    case '':
+      homePage();
+      break;
+    case '#/':
+      homePage();
+      break;
     case '#cart':
       cartPage();
       break;
@@ -18,13 +21,11 @@ function routes() {
     case '#accessories':
       accessoriesPage();
       break;
-    case '/gallery':
+    case '#gallery':
       galleryPage();
       break;
     default:
-      homePage();
-      break;
-      // document.getElementById('page-title').innerHTML = 'Unknown Page';
+      document.getElementById('page-title').innerHTML = 'Unknown Page';
   }
 }
 
