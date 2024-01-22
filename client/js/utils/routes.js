@@ -4,21 +4,23 @@ import productPage from '../products/index.js';
 import accessoriesPage from '../accessories/index.js';
 
 function routes() {
-  switch (location.pathname) {
-    case '/':
-      homePage();
-      break;
-    case '/cart':
+  switch (window.location.hash) {
+    // case '' || '#/':
+    //    homePage();
+    //   break;
+    case '#cart':
       cartPage();
       break;
-    case '/products':
+    case '#products':
       productPage();
       break;
-    case '/accessories':
+    case '#accessories':
       accessoriesPage();
       break;
     default:
-      document.getElementById('page-title').innerHTML = 'Unknown Page';
+      homePage();
+      break;
+      // document.getElementById('page-title').innerHTML = 'Unknown Page';
   }
 }
 
