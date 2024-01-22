@@ -28,6 +28,7 @@ ul#product-list {
   background-color: #000000;
 }
 
+
 /* Gallery styling */
 .galleryImages img{
   display: block;
@@ -37,3 +38,16 @@ ul#product-list {
   max-height: 25%;
   padding: 5px;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+
+
+img {
+  height: 50%;
+  width: 40%;
+
+}
+

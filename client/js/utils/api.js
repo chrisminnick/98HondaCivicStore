@@ -1,6 +1,7 @@
 export async function fetchAccessories() {
   let response = await fetch("http://localhost:3000/accessories");
   let data = await response.json();
+  // console.log(data)
   return data;
 }
 

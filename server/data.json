@@ -2,8 +2,8 @@
   "accessories": [
     {
       "accessoryName": "McDonald's Quarter Pounder Wrapper",
-      "price": "",
-      "description": "",
+      "price": "$2.99",
+      "description": "Authentic wrapper from McDonald's Quarter Pounder",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -12,8 +12,8 @@
     },
     {
       "accessoryName": "Socket Wrench",
-      "price": "",
-      "description": "",
+      "price": "$19.99",
+      "description": "High-quality socket wrench for various uses",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -22,8 +22,8 @@
     },
     {
       "accessoryName": "Hopes and Dreams",
-      "price": "",
-      "description": "",
+      "price": "$999.99",
+      "description": "A collection of hopes and dreams, intangible but priceless",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -32,8 +32,8 @@
     },
     {
       "accessoryName": "Tires",
-      "price": "",
-      "description": "",
+      "price": "$149.99",
+      "description": "Set of durable and reliable tires for various vehicles",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -42,8 +42,8 @@
     },
     {
       "accessoryName": "Bike Rack",
-      "price": "",
-      "description": "",
+      "price": "$79.99",
+      "description": "Sturdy bike rack for transporting bicycles with ease",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -52,8 +52,8 @@
     },
     {
       "accessoryName": "n'Sync CD",
-      "price": "",
-      "description": "",
+      "price": "$5.99",
+      "description": "Classic n'Sync CD for a nostalgic musical experience",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -62,8 +62,8 @@
     },
     {
       "accessoryName": "Valve Stem Caps",
-      "price": "",
-      "description": "",
+      "price": "$8.99",
+      "description": "Set of stylish valve stem caps for your vehicle",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -72,8 +72,8 @@
     },
     {
       "accessoryName": "Ash Tray",
-      "price": "",
-      "description": "",
+      "price": "$4.99",
+      "description": "Convenient ashtray for keeping your vehicle clean",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -82,8 +82,8 @@
     },
     {
       "accessoryName": "Old Spare Tire",
-      "price": "",
-      "description": "",
+      "price": "$29.99",
+      "description": "Vintage spare tire, still in good condition",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -92,8 +92,8 @@
     },
     {
       "accessoryName": "Fuzzy Steering Wheel Cover",
-      "price": "",
-      "description": "",
+      "price": "$12.99",
+      "description": "Soft and fuzzy steering wheel cover for added comfort",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -102,8 +102,8 @@
     },
     {
       "accessoryName": "Lift Kit",
-      "price": "",
-      "description": "",
+      "price": "$149.99",
+      "description": "Suspension lift kit for an enhanced off-road experience",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -112,8 +112,8 @@
     },
     {
       "accessoryName": "Beaded Seat Cover",
-      "price": "",
-      "description": "",
+      "price": "$17.99",
+      "description": "Colorful beaded seat cover for a unique touch to your car interior",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -122,8 +122,8 @@
     },
     {
       "accessoryName": "Cup Holder",
-      "price": "",
-      "description": "",
+      "price": "$6.99",
+      "description": "Adjustable and convenient cup holder for your beverages",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -132,8 +132,8 @@
     },
     {
       "accessoryName": "Bluetooth Transmitter",
-      "price": "",
-      "description": "",
+      "price": "$24.99",
+      "description": "Wireless Bluetooth transmitter for in-car audio streaming",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -142,8 +142,8 @@
     },
     {
       "accessoryName": "Fuzzy Dice",
-      "price": "",
-      "description": "",
+      "price": "$7.99",
+      "description": "Pair of fuzzy dice for a playful and retro car accessory",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -152,8 +152,8 @@
     },
     {
       "accessoryName": "Window Tints",
-      "price": "",
-      "description": "",
+      "price": "$34.99",
+      "description": "High-quality window tints for privacy and UV protection",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -162,8 +162,8 @@
     },
     {
       "accessoryName": "Cowboy Hat (large)",
-      "price": "",
-      "description": "",
+      "price": "$14.99",
+      "description": "Large cowboy hat for a Western-inspired car accessory",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -172,8 +172,8 @@
     },
     {
       "accessoryName": "Dashboard Troll Doll",
-      "price": "",
-      "description": "",
+      "price": "$3.99",
+      "description": "Quirky troll doll for adding character to your dashboard",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -182,8 +182,8 @@
     },
     {
       "accessoryName": "Dashboard Hula Girl",
-      "price": "",
-      "description": "",
+      "price": "$5.99",
+      "description": "Traditional hula girl figurine for a fun dashboard decoration",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -192,8 +192,8 @@
     },
     {
       "accessoryName": "Cassette Tape Case",
-      "price": "",
-      "description": "",
+      "price": "$9.99",
+      "description": "Retro cassette tape case for storing your favorite tapes",
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -203,7 +203,9 @@
   ],
   "products": [
     {
-      "productName": "1998 Honda Civic"
+      "productName": "1998 Honda Civic",
+      "price": "$199,800",
+      "description": "Its 26 years old, 300,000 miles, and still going strong"
     }
   ],
   "gallery": [
