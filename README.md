@@ -11,6 +11,7 @@ This app was created as a demo app for a class about JavaScript.
 Run the following in the /server directory:
 
 `npm install`
+* 'npm i' does the same thing
 
 ## Starting the server
 
