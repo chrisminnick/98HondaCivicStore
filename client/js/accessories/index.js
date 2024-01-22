@@ -1,17 +1,24 @@
-import { fetchAccessories } from '../utils/api.js';
+import { fetchAccessories } from "../utils/api.js";
 
 async function accessoriesPage() {
   const accessories = await fetchAccessories();
 
-  document.getElementById('page-title').innerHTML = 'Accessories';
+  document.getElementById("page-title").innerHTML = "Accessories";
 
   const accessoryList = accessories.map((accessory) => {
-    return '<li>' + accessory.accessoryName + '</li>';
+    return (
+      "<li>" +
+      accessory.accessoryName +
+      "</li>" +
+      "<li>" +
+      "<img src={accessory.imageUrl}></img>" +
+      "</li>"
+    );
   });
-  const accessoryHTMLList = accessoryList.join('');
+  const accessoryHTMLList = accessoryList.join("");
 
-  document.getElementById('app').innerHTML =
-    '<ul id="product-list">' + accessoryHTMLList + '</ul>';
+  document.getElementById("app").innerHTML =
+    '<ul id="product-list">' + accessoryHTMLList + "</ul>";
 }
 
 export default accessoriesPage;
