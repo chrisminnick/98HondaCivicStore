@@ -2,6 +2,7 @@ import homePage from '../home/index.js';
 import cartPage from '../cart/index.js';
 import productPage from '../products/index.js';
 import accessoriesPage from '../accessories/index.js';
+import galleryPage from '../gallery/index.js';
 
 function routes() {
   switch (window.location.hash) {
@@ -16,6 +17,9 @@ function routes() {
       break;
     case '#accessories':
       accessoriesPage();
+      break;
+    case '/gallery':
+      galleryPage();
       break;
     default:
       homePage();
