@@ -11,7 +11,8 @@ This app was created as a demo app for a class about JavaScript in January 2024.
 Run the following in the /server directory:
 
 `npm install`
-* 'npm i' does the same thing
+
+- 'npm i' does the same thing
 
 ## Starting the server
 
@@ -40,7 +41,7 @@ Run the following in the /server directory:
 3. Add the original (this) repo as a remote for your fork:
    [Configuring a remote repository for a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork)
 
-4. Have the person who forked the repo add everyone else as          collaborators so that they all have access to push, pull ...
+4. Have the person who forked the repo add everyone else as collaborators so that they all have access to push, pull ...
 
 5. Have a brief planning session with your team and together pick one feature to work on.
    Hint: pick something small to start with.
@@ -49,16 +50,21 @@ Run the following in the /server directory:
 8. Go to github and navigate to this repo and create a pull request to merge your new branch into this repo's develop branch.
 9. Go back to step 3 and switch drivers.
 10. Sync your fork with the upstream repo. You can learn about how to do this here:
-   [Syncing a fork branch from the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line)
+    [Syncing a fork branch from the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line)
 11. Repeat until the time for the exercise is over.
 
 # New Feature Backlog
 
-- Make the homepage display a picture of the 1998 Honda Civic and some marketing text about it.
-- Make the Cart page display a default message (something like "there's nothing in your cart")
-- Display the product description and price for each item on the product page and on the accessories page.
+- Display the product description and price for each item on the product page.
 - Link each product and accessory to a unique route where individual product information will be displayed (something like /accessories/[id] or /products/[id])
 - Build the individual product and accessories pages.
 - Make the individual product and accessories pages display a single product or accessory when they recieve an id in the url.
 - Figure out url rewriting so any request for a file at a subdirectory will redirect to /index.html so it can be properly handled by JavaScript.
+- More tacky
+- Less responsive
+- Uncontrollable music
+- Login required - very difficult to use
+- reduce duplication in functions
+- increase comments / documentation
+- fancy background
 - Any other feature you want. The smaller the feature the better.
