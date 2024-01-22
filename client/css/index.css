@@ -28,7 +28,14 @@ ul#product-list {
   background-color: #000000;
 }
 
+table,
+th,
+td {
+  border: 1px solid black;
+
+
 img {
   height: 50%;
   width: 40%;
+
 }

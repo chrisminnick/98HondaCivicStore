@@ -6,21 +6,15 @@ async function accessoriesPage() {
   document.getElementById("page-title").innerHTML = "Accessories";
 
   const accessoryList = accessories.map((accessory) => {
-    return (
-      "<li>" +
-      accessory.accessoryName +
-      " : " +
-      "</li>" +
-      "<li style=font-size:small;color:blue;>" +
-      "Description: " +
-      accessory.description +
-      "</li>"
-    );
-  });
-  const accessoryHTMLList = accessoryList.join("");
 
+    return `<tr><td>${accessory.accessoryName}</td><td>${accessory.description}</td><td>${accessory.price}</td></tr>`;
+  });
+
+  const tableHeader =
+    "<tr><th>Accessory Name </th><th>Accessory Desc </th><th>Accessory price </th></tr>";
   document.getElementById("app").innerHTML =
-    '<ul id="product-list">' + accessoryHTMLList + "</ul>";
+    "<table>" + tableHeader + accessoryList + "</table>";
+
 }
 
 export default accessoriesPage;

@@ -1,4 +1,4 @@
-import { fetchProducts } from '../utils/api.js';
+import { fetchProducts } from "../utils/api.js";
 
 async function productPage() {
   try {
