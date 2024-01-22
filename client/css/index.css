@@ -27,3 +27,8 @@ ul#product-list {
 #topnav {
   background-color: #000000;
 }
+
+img {
+  height: 50%;
+  width: 40%;
+}
