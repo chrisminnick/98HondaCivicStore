@@ -2,13 +2,8 @@
   "accessories": [
     {
       "accessoryName": "McDonald's Quarter Pounder Wrapper",
-<<<<<<< HEAD
-      "price": "3.00",
-      "description": "",
-=======
       "price": "$2.99",
       "description": "Authentic wrapper from McDonald's Quarter Pounder",
->>>>>>> 358351b0e022339304bf7a63b6816fc43d08c5d4
       "inStock": "",
       "color": "",
       "UPC": "",
