@@ -28,9 +28,8 @@ ul#product-list {
   background-color: #000000;
 }
 
-
 /* Gallery styling */
-.galleryImages img{
+.galleryImages img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,11 +42,27 @@ table,
 th,
 td {
   border: 1px solid black;
-
+}
 
 img {
   height: 50%;
   width: 40%;
-
 }
 
+#buynow {
+  width: 100px;
+  height: 100px;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  font-size: 100px;
+}
+
+@keyframes example {
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
