@@ -5,20 +5,23 @@ import accessoriesPage from '../accessories/index.js';
 import galleryPage from '../gallery/index.js';
 
 function routes() {
-  switch (location.pathname) {
-    case '/':
+  switch (window.location.hash) {
+    case '':
       homePage();
       break;
-    case '/cart':
+    case '#/':
+      homePage();
+      break;
+    case '#cart':
       cartPage();
       break;
-    case '/products':
+    case '#products':
       productPage();
       break;
-    case '/accessories':
+    case '#accessories':
       accessoriesPage();
       break;
-    case '/gallery':
+    case '#gallery':
       galleryPage();
       break;
     default:

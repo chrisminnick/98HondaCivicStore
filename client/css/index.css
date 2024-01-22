@@ -1,6 +1,9 @@
 body {
   font-family: cursive;
   text-align: center;
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/UyMsAnqppbUXvbth4jJjVgUZrr8=/fit-in/1200x627/top/filters:format_auto():quality(85):upscale()/2017/01/17/841/n/1922507/0e94a7b2587e6c482091d2.16523928_edit_img_twitter_post_image_file_16516765_1484676906.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #app {
   font-family: sans-serif;
@@ -26,16 +29,4 @@ ul#product-list {
 
 #topnav {
   background-color: #000000;
-}
-
-table,
-th,
-td {
-  border: 1px solid black;
-
-
-img {
-  height: 50%;
-  width: 40%;
-
 }
