@@ -2,13 +2,8 @@
   "accessories": [
     {
       "accessoryName": "McDonald's Quarter Pounder Wrapper",
-<<<<<<< HEAD
-      "price": "0.50",
-      "description": "",
-=======
       "price": "$2.99",
       "description": "Authentic wrapper from McDonald's Quarter Pounder",
->>>>>>> 358351b0e022339304bf7a63b6816fc43d08c5d4
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -17,13 +12,8 @@
     },
     {
       "accessoryName": "Socket Wrench",
-<<<<<<< HEAD
-      "price": "5.00",
-      "description": "",
-=======
       "price": "$19.99",
       "description": "High-quality socket wrench for various uses",
->>>>>>> 358351b0e022339304bf7a63b6816fc43d08c5d4
       "inStock": "",
       "color": "",
       "UPC": "",
@@ -32,13 +22,8 @@
     },
     {
       "accessoryName": "Hopes and Dreams",
-<<<<<<< HEAD
-      "price": "0.00",
-      "description": "",
-=======
       "price": "$999.99",
       "description": "A collection of hopes and dreams, intangible but priceless",
->>>>>>> 358351b0e022339304bf7a63b6816fc43d08c5d4
       "inStock": "",
       "color": "",
       "UPC": "",
