@@ -3,5 +3,5 @@ export default function homePage() {
 }
 
 function homeHelper() {
-  document.getElementById('page-title').innerHTML = 'Thanks for Visiting';
+  document.getElementById("page-title").innerHTML = "Thanks for Visiting";
 }
