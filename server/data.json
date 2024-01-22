@@ -207,5 +207,17 @@
       "price": "$199,800",
       "description": "Its 26 years old, 300,000 miles, and still going strong"
     }
+  ],
+
+  "gallery": [
+    {
+      "imageURL": "https://media.carsandbids.com/cdn-cgi/image/width=2080,quality=70/c51905b0000b639a185eeb080dd879bf007f5604/photos/KPdQOoy7.L8zeYcs0Y-(edit).jpg?t=162350711773"
+    },
+    {
+      "imageURL": "https://i.ebayimg.com/images/g/i9QAAOSwoEFcRBkr/s-l1600.jpg"
+    },
+    {
+      "imageURL": "https://www.cars.com/i/large/in/v2/stock_photos/2d9b4a62-279e-46b0-a5e9-f12b5e91b014/17850a5e-b7a6-4b2a-895d-6c89817bf8d5.png"
+    }
   ]
 }
