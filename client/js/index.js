@@ -12,5 +12,8 @@ document
   .getElementById('accessoriesLink')
   .addEventListener('click', () => navigate('accessories'));
 document
+  .getElementById('galleryLink')
+  .addEventListener('click', () => navigate('gallery'));
+document
   .getElementById('homeLink')
   .addEventListener('click', () => navigate('/'));
