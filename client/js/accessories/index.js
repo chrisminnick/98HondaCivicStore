@@ -6,14 +6,7 @@ async function accessoriesPage() {
   document.getElementById("page-title").innerHTML = "Accessories";
 
   const accessoryList = accessories.map((accessory) => {
-    return (
-      "<li>" +
-      accessory.accessoryName +
-      "</li>" +
-      "<li>" +
-      "<img src={accessory.imageUrl}></img>" +
-      "</li>"
-    );
+    return "<li>" + accessory.accessoryName + "</li>";
   });
   const accessoryHTMLList = accessoryList.join("");
 
