@@ -4,7 +4,7 @@ A store for selling a 1998 Honda Civic
 
 ## What is it?
 
-This app was created as a demo app for a class about JavaScript.
+This app was created as a demo app for a class about JavaScript in January 2024.
 
 ## Installation
 
