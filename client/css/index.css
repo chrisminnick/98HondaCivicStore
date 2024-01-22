@@ -67,6 +67,44 @@ h1 {
   }
 
 img {
+  border: 6px solid yellow;
   height: 50%;
-  width: 40%;
+  width: 50%;
+}
+
+#spin {
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    border-color: red;
+    left: -200px;
+    top: 0px;
+  }
+  25% {
+    border-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    border-color: blue;
+    left: 200px;
+    top: 200px;
+    transform: rotate(180deg);
+  }
+  75% {
+    border-color: green;
+    left: -200px;
+    top: 200px;
+  }
+  100% {
+    border-color: red;
+    left: -200px;
+    top: 0px;
+  }
 }
