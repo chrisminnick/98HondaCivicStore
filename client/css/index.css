@@ -1,11 +1,24 @@
 body {
   font-family: cursive;
+  text-decoration: green wavy underline;
   text-align: center;
+  background-color: #00ccd6;
+  background-image: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 50%
+  );
+  background-size: 50px 50px;
 }
 #app {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
+p {
+  text-transform: lowercase;
+  line-height: 3;
+}
+
 .navlink {
   margin: 10px;
   display: inline;
@@ -25,7 +38,7 @@ ul#product-list {
 }
 
 #topnav {
-  background-color: #000000;
+  background-color: #1832b3;
 }
 
 table,
@@ -33,9 +46,32 @@ th,
 td {
   border: 1px solid black;
 
+  img {
+    height: 50%;
+    width: 40%;
+  }
+}
+h1 {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  border: #1832b3 solid 5px;
+}
 
-img {
-  height: 50%;
-  width: 40%;
-
+@keyframes example {
+  0% {
+    background-color: #00ccd6;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: #00ccd6;
+  }
 }
