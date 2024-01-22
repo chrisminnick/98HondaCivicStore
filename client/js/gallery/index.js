@@ -13,7 +13,7 @@ async function galleryPage() {
   });
   const galleryHTMLList = imageList.join("");
 
-  document.getElementById("app").innerHTML = galleryHTMLList;
+  document.getElementById("app").innerHTML = "<div class='galleryImages'>" + galleryHTMLList + "</div>";
 }
 
 export default galleryPage;
