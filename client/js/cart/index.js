@@ -1,6 +1,6 @@
 function cartPage() {
   document.getElementById("page-title").innerHTML = "Cart";
   document.getElementById("app").innerHTML =
-    "<h3>there's nothing in your cart</h33>";
+    "<h2>There's nothing in your cart</h2>";
 }
 export default cartPage;

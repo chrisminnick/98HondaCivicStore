@@ -15,9 +15,6 @@ async function accessoriesPage() {
   document.getElementById("app").innerHTML =
     "<table>" + tableHeader + accessoryList + "</table>";
 
- 
-
-
 }
 
 export default accessoriesPage;
