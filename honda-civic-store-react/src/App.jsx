@@ -4,7 +4,6 @@ import Product from './Product';
 import './App.css';
 
 function App() {
-  const [products, setProducts] = useState([]);
   return (
     <div>
       <h1>1998 Honda Civic Store</h1>

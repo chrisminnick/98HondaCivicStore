@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest --environment jsdom",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -15,13 +16,18 @@
     "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/react": "^14.1.2",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.2.2",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "jsdom": "^24.0.0",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.2"
   }
 }
