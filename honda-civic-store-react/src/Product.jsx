@@ -1,4 +1,10 @@
-function Product() {
-  return <p>it&apos;s a 1998 Honda Civic</p>;
+function Product({ products = [] }) {
+  return (
+    <>
+      {products.map((product, index) => (
+        <li key={index}>{product.productName}</li>
+      ))}
+    </>
+  );
 }
 export default Product;
