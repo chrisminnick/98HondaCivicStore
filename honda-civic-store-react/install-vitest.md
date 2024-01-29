@@ -1,26 +1,32 @@
-npm install --save-dev vitest
+1. Run the installs
+
+`npm install --save-dev vitest
 npm install --save-dev jsdom
 npm install --save-dev @testing-library/jest-dom
 npm install --save-dev @testing-library/react
-npm install --save-dev @vitest/coverage-v8
+npm install --save-dev @vitest/coverage-v8`
 
-Add testing config to vite.config.js file:
+2. Add testing config to vite.config.js file:
 
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+`import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';`
 
-export default defineConfig({
+`export default defineConfig({
 plugins: [react()],
 test: {
 globals: true,
 environment: 'jsdom',
 },
-});
+});`
 
-Add a test script to package.json:
+3. Add a test script to package.json:
 
-"scripts": {
+`"scripts": {
 "dev": "vite",
 "test": "vitest --environment jsdom",
 ...
-}
+}`
+
+4. Test it out!
+
+`npm test`
